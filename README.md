@@ -1,4 +1,4 @@
-# SJRG-Working
+# Friends of the SJRG
 
 This is a work space for Friends of the SJRG new website.
 
