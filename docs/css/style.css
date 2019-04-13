@@ -1,28 +1,107 @@
 :root {
-  /* colors here */
+  /*page colors here */
+  --white: #F4F7F2;
+  --gray: #D3D4D9;
+  --lightgreen: #BFC9C1;
+  --darkgreen: #5A774A;
 }
 
 body {
   font-family: 'Heebo', sans-serif;
+  display: grid;
+  grid-template-rows: 3;
 }
 
-/******* NAV BAR **********/
+/********************** NAV BAR *********************/
 
-nav {
-  align-items: center;
+.nav-container {
+  grid-row: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-nav li {
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.nav-item {
   display: inline;
+  float: right;
+  /* background-color: rgb(0, 0, 0, 0.2); */
 }
 
-/******* LANDING PAGE ********/
+.nav-item a {
+  padding: 0px 30px 0px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--lightgreen);
+  text-shadow: 1px 1px black;
+}
+
+.nav-item a:hover {
+  color: var(--darkgreen);
+}
+
+/******************** FOOTER *********************/
+footer {
+  grid-row: 3;
+  /* bottom: 0; */
+}
+
+.copyright {
+  opacity: 0.6;
+  align: center;
+}
+
+/***************** LANDING PAGE *****************/
+.container {
+  grid-row: 2;
+}
+
+/* BACKGROUND IMG */
 .container img {
   max-width: 100%;
   position: absolute;
   background-size: cover;
+  top: 0;
+  right: 0;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.3;
+}
+
+/* INTRO TITLE */
+.container .album h1 {
+  margin-top: 5vw;
+  margin-bottom: 0;
+  text-align: center;
+  color: var(--darkgreen);
+  text-shadow: 1px 1px black;
+  font-size: 500%;
+}
+
+.container .album h2 {
+  margin-top: 0.5vw;
+  text-align: center;
+  color: var(--darkgreen);
+  text-shadow: 1px 1px black;
+  font-size: 200%;
+}
+
+/* LOGO */
+.container .album img {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  max-height: 320px;
+}
+
+.container hr {
+  z-index: 2;
 }
 
 /******* ABOUT PAGE ********/
