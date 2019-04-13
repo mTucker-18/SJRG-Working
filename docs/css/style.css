@@ -1,0 +1,31 @@
+:root {
+  /* colors here */
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+/******* NAV BAR **********/
+
+nav {
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+}
+
+/******* LANDING PAGE ********/
+.container img {
+  max-width: 100%;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/******* ABOUT PAGE ********/
+
+
+/******* CONTACT PAGE *******/
