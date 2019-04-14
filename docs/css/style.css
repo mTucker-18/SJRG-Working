@@ -104,37 +104,35 @@ footer {
 .container .album {
   display: grid;
   grid-template-rows: 3;
+  grid-template-columns: 2;
 }
 
 /* First item */
 .container .album .activity1 {
   grid-row: 1;
+  grid-column: 2;
 }
 
 .container .album .activity1 img {
   position: relative;
-  left: 0;
   opacity: 1;
-  margin: 50px;
+  margin-top: 10%;
   border-radius: 5px;
   border: 8px solid var(--white);
   max-height: 320px;
-  /* float: right; */
 }
 
 .container .album .activity1 h4 {
   position: relative;
   display: inline;
-  /* float: right; */
-  margin-top: 150px;
-  margin-right: 75px;
+  margin: 30px;
   font-size: 150%;
   color: var(--darkgreen);
   text-shadow: 1px 1px black;
 }
 
 /* Second item */
-.container .album .activity1 {
+.container .album .activity2 {
   grid-row: 2;
 }
 
@@ -159,7 +157,7 @@ footer {
 }
 
 /* Third item */
-.container .album .activity1 {
+.container .album .activity3 {
   grid-row: 3;
 }
 
