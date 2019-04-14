@@ -75,7 +75,7 @@ footer {
 }
 
 /* INTRO TITLE */
-.container .album h1 {
+.container .banner h1 {
   margin-top: 5vw;
   margin-bottom: 0;
   text-align: center;
@@ -84,7 +84,7 @@ footer {
   font-size: 500%;
 }
 
-.container .album h2 {
+.container .banner h2 {
   margin-top: 0.5vw;
   text-align: center;
   color: var(--darkgreen);
@@ -93,13 +93,97 @@ footer {
 }
 
 /* LOGO */
-.container .album img {
+.container .banner img {
   position: absolute;
   left: 0;
   opacity: 1;
   max-height: 320px;
 }
 
+/* ALBUM */
+.container .album {
+  display: grid;
+  grid-template-rows: 3;
+}
+
+/* First item */
+.container .album .activity1 {
+  grid-row: 1;
+}
+
+.container .album .activity1 img {
+  position: relative;
+  left: 0;
+  opacity: 1;
+  margin: 50px;
+  border-radius: 5px;
+  border: 8px solid var(--white);
+  max-height: 320px;
+  /* float: right; */
+}
+
+.container .album .activity1 h4 {
+  position: relative;
+  display: inline;
+  /* float: right; */
+  margin-top: 150px;
+  margin-right: 75px;
+  font-size: 150%;
+  color: var(--darkgreen);
+  text-shadow: 1px 1px black;
+}
+
+/* Second item */
+.container .album .activity1 {
+  grid-row: 2;
+}
+
+.container .album .activity2 img {
+  position: relative;
+  left: 0;
+  opacity: 1;
+  margin: 50px;
+  border-radius: 5px;
+  border: 8px solid var(--white);
+  max-height: 320px;
+}
+
+.container .album .activity2 h4 {
+  position: relative;
+  display: inline;
+  margin-top: 150px;
+  margin-right: 75px;
+  font-size: 150%;
+  color: var(--darkgreen);
+  text-shadow: 1px 1px black;
+}
+
+/* Third item */
+.container .album .activity1 {
+  grid-row: 3;
+}
+
+.container .album .activity3 img {
+  position: relative;
+  left: 0;
+  opacity: 1;
+  margin: 50px;
+  border-radius: 5px;
+  border: 8px solid var(--white);
+  max-height: 320px;
+  /* float: right; */
+}
+
+.container .album .activity3 h4 {
+  position: relative;
+  display: inline;
+  /* float: right; */
+  margin-top: 150px;
+  margin-right: 75px;
+  font-size: 150%;
+  color: var(--darkgreen);
+  text-shadow: 1px 1px black;
+}
 .container hr {
   z-index: 2;
 }
