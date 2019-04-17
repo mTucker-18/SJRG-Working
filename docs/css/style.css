@@ -45,23 +45,26 @@ body {
 }
 
 .nav-item a:hover {
-  color: var(--lightgreen);
+  color: white;
 }
 
 /******************** FOOTER *********************/
-footer {
-  grid-row: 3;
-  /* bottom: 0; */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
 }
 
 .copyright {
   opacity: 0.6;
-  align: center;
 }
 
 /***************** LANDING PAGE *****************/
 .container {
-  grid-row: 2;
+
 }
 
 /* BACKGROUND IMG */
@@ -96,97 +99,96 @@ footer {
 /* LOGO */
 .container .banner img {
   position: absolute;
-  left: 10px;
-  top: 60px;
+  left: 50px;
+  top: 300px;
   opacity: 1;
-  max-height: 250px;
+  max-height: 350px;
   border-radius: 50%;
 }
 
 /* ALBUM */
 .container .album {
   display: grid;
-  grid-template-rows: 3;
-  grid-template-columns: 2;
+  grid-template-rows: 2;
+  grid-template-columns: 4;
 }
 
 /* First item */
 .container .album .activity1 {
   grid-row: 1;
-  grid-column: 2;
+  grid-column: 3;
 }
 
 .container .album .activity1 img {
   position: relative;
   opacity: 1;
-  margin-top: 10%;
+  display: block;
+  margin: 10% auto 0 auto;
   border-radius: 5px;
-  border: 8px solid var(--white);
-  max-height: 320px;
+  border: 10px solid white;
+  max-height: 350px;
 }
 
 .container .album .activity1 h4 {
-  position: relative;
-  display: inline;
-  margin: 30px;
   font-size: 150%;
   color: var(--darkgreen);
   text-shadow: 1px 1px black;
+  text-align: center;
 }
 
 /* Second item */
 .container .album .activity2 {
-  grid-row: 2;
+  grid-row: 1;
+  grid-column: 4;
 }
 
 .container .album .activity2 img {
   position: relative;
-  left: 0;
   opacity: 1;
-  margin: 50px;
   border-radius: 5px;
-  border: 8px solid var(--white);
+  border: 10px solid white;
   max-height: 320px;
+  display: block;
+  margin: 10% auto 0 auto;
 }
 
 .container .album .activity2 h4 {
-  position: relative;
-  display: inline;
-  margin-top: 150px;
-  margin-right: 75px;
   font-size: 150%;
   color: var(--darkgreen);
   text-shadow: 1px 1px black;
+  text-align: center;
 }
 
 /* Third item */
 .container .album .activity3 {
-  grid-row: 3;
+  grid-row: 2;
+  grid-column: 4;
 }
 
 .container .album .activity3 img {
   position: relative;
-  left: 0;
   opacity: 1;
-  margin: 50px;
   border-radius: 5px;
-  border: 8px solid var(--white);
-  max-height: 320px;
-  /* float: right; */
+  border: 10px solid white;
+  max-height: 350px;
+  display: block;
+  margin: 10% auto 0 auto;
 }
 
 .container .album .activity3 h4 {
-  position: relative;
-  display: inline;
-  /* float: right; */
-  margin-top: 150px;
-  margin-right: 75px;
   font-size: 150%;
   color: var(--darkgreen);
   text-shadow: 1px 1px black;
+  text-align: center;
 }
-.container hr {
-  z-index: 2;
+
+.container .album .mission-statement {
+  grid-row: 2;
+  grid-column: 2/3;
+  position: relative;;
+  font-size: 10%;
+  text-align: center;
+
 }
 
 /******* ABOUT PAGE ********/
