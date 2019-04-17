@@ -19,6 +19,8 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.2);
 }
 
 .navbar-nav {
@@ -31,7 +33,6 @@ body {
 .nav-item {
   display: inline;
   float: right;
-  /* background-color: rgb(0, 0, 0, 0.2); */
 }
 
 .nav-item a {
@@ -39,12 +40,12 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: var(--lightgreen);
+  color: var(--darkgreen);
   text-shadow: 1px 1px black;
 }
 
 .nav-item a:hover {
-  color: var(--darkgreen);
+  color: var(--lightgreen);
 }
 
 /******************** FOOTER *********************/
@@ -80,7 +81,7 @@ footer {
   margin-bottom: 0;
   text-align: center;
   color: var(--darkgreen);
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
   font-size: 500%;
 }
 
@@ -95,9 +96,11 @@ footer {
 /* LOGO */
 .container .banner img {
   position: absolute;
-  left: 0;
+  left: 10px;
+  top: 60px;
   opacity: 1;
-  max-height: 320px;
+  max-height: 250px;
+  border-radius: 50%;
 }
 
 /* ALBUM */
