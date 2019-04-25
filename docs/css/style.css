@@ -20,7 +20,6 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0, 0.2);
 }
 
 .navbar-nav {
@@ -76,15 +75,16 @@ body {
   max-width: 100%;
   position: absolute;
   background-size: cover;
-  top: 0;
+  top: -25%;
   right: 0;
   z-index: -1;
   opacity: 0.3;
+  /* overflow: hidden; */
 }
 
 /* INTRO TITLE */
 .container .banner h1 {
-  margin-top: 5vw;
+  margin-top: 7vw;
   margin-bottom: 0;
   text-align: center;
   color: var(--darkgreen);
@@ -97,109 +97,26 @@ body {
   text-align: center;
   color: var(--darkgreen);
   text-shadow: 1px 1px black;
-  font-size: 200%;
+  font-size: 230%;
 }
 
 /* LOGO */
 .container .banner img {
-  position: absolute;
-  left: 50px;
-  top: 300px;
+  display: block;
+  position: relative;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
   opacity: 1;
-  max-height: 350px;
+  width: 15%;
   border-radius: 50%;
 }
 
-/* ALBUM */
-.container .album {
-  display: grid;
-  grid-template-rows: 2;
-  grid-template-columns: 1fr 1fr 2fr 2fr;
-}
-
-/* First item */
-.container .album .activity1 {
-  grid-row: 1;
-  grid-column: 3;
-}
-
-.container .album .activity1 img {
-  position: relative;
-  opacity: 1;
-  display: block;
-  margin: 12% auto 0 auto;
-  border-radius: 5px;
-  border: 10px solid white;
-  max-height: 350px;
-}
-
-.container .album .activity1 h4 {
-  font-size: 150%;
+.mission-statement {
+  text-align: center;
+  font-size: 180%;
   color: var(--darkgreen);
-  text-shadow: 1px 1px black;
-  text-align: center;
+  border-radius: 70%;
+  margin: 4% 20% 0 20%;
+  background-color: var(--white);
 }
-
-/* Second item */
-.container .album .activity2 {
-  grid-row: 1;
-  grid-column: 4;
-}
-
-.container .album .activity2 img {
-  position: relative;
-  opacity: 1;
-  border-radius: 5px;
-  border: 10px solid white;
-  max-height: 320px;
-  display: block;
-  margin: 12% auto 0 auto;
-}
-
-.container .album .activity2 h4 {
-  font-size: 150%;
-  color: var(--darkgreen);
-  text-shadow: 1px 1px black;
-  text-align: center;
-}
-
-/* Third item */
-.container .album .activity3 {
-  grid-row: 2;
-  grid-column: 4;
-}
-
-.container .album .activity3 img {
-  position: relative;
-  opacity: 1;
-  border-radius: 5px;
-  border: 10px solid white;
-  max-height: 350px;
-  display: block;
-  margin: 12% auto 0 auto;
-}
-
-.container .album .activity3 h4 {
-  font-size: 150%;
-  color: var(--darkgreen);
-  text-shadow: 1px 1px black;
-  text-align: center;
-}
-
-.container .album .mission-statement {
-  grid-row: 2;
-  grid-column: span 3;
-  padding: 140px 50px 50px 50px;
-  margin: 0;
-  position: relative;;
-  font-size: 170%;
-  text-align: center;
-  color: black;
-  opacity: 0.8;
-  /* background-color: rgb(255, 255, 255, 0.6); */
-}
-
-/******* ABOUT PAGE ********/
-
-
-/******* CONTACT PAGE *******/

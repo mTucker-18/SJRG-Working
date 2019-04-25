@@ -1,0 +1,78 @@
+:root {
+  /*page colors here */
+  --white: #F4F7F2;
+  --gray: #D3D4D9;
+  --lightgreen: #BFC9C1;
+  --darkgreen: #5A774A;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+/********************** NAV BAR *********************/
+
+.nav-container {
+  grid-row: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.nav-item {
+  display: inline;
+  float: right;
+}
+
+.nav-item a {
+  padding: 0px 30px 0px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--darkgreen);
+  text-shadow: 1px 1px black;
+}
+
+.nav-item a:hover {
+  color: white;
+}
+
+/******************** FOOTER *********************/
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.links {
+  opacity: 0.6;
+}
+
+.copyright {
+  opacity: 0.6;
+}
+
+/********************** ABOUT PAGE ******************/
+.masthead {
+  top: 0;
+  left: 0;
+}
+
+.masthead img {
+  display: block;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+}
