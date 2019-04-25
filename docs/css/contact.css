@@ -63,35 +63,7 @@ body {
   opacity: 0.6;
 }
 
-/********************** ABOUT PAGE ******************/
+/********************** CONTACT PAGE ******************/
 .container {
 
-}
-
-.container img {
-  position: absolute;
-  min-width: 100%;
-  height: 500px;
-  overflow: hidden;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
-
-.heading {
-  text-align: center;
-  color: var(--white);
-  font-size: 200%;
-  text-shadow: 1px 1px grey;
-  margin: 9%;
-}
-
-.MainContent {
-  display: grid;
-  grid-template-columns: 20% auto 20%;
-}
-
-.text {
-  grid-column: 2;
-  font-size: 110%;
 }
