@@ -64,8 +64,10 @@ body {
 }
 
 /********************** CONTACT PAGE ******************/
-.container {
-
+body {
+  background-image: url("../img/contact-background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .formCard h1 {
@@ -81,7 +83,7 @@ body {
 .formCard {
   position: relative;
   text-align: center;
-  /* background: white; */
+  background: white;
   width: 50%;
   margin: 10%;
 }
