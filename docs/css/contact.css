@@ -68,6 +68,7 @@ body {
   background-image: url("../img/contact-background.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .formCard h1 {
@@ -89,7 +90,7 @@ body {
 }
 
 .cardContainer {
-  padding: 25px 50px;
+  padding: 2%;
 }
 
 /* Form styling */
