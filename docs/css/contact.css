@@ -67,3 +67,164 @@ body {
 .container {
 
 }
+
+.formCard h1 {
+  color: var(--darkgreen);
+}
+
+.formCard hr {
+  width: 50%;
+  /* background-color: red; */
+  /* border-color: red; */
+}
+
+.formCard {
+  position: relative;
+  text-align: center;
+  /* background: white; */
+  width: 50%;
+  margin: 10%;
+}
+
+.cardContainer {
+  padding: 25px 50px;
+}
+
+/* Form styling */
+.formCard input {
+  width: 90%;
+  margin-top: 12px;
+  padding: 10px;
+  color: gray;
+  border: 2px solid #C8CCCE;
+}
+
+.formCard textarea {
+  width: 90%;
+  height: 150px;
+  margin-top: 12px;
+  padding: 10px;
+  color: gray;
+  border: 2px solid #C8CCCE;
+  resize: none;
+}
+
+.formCard input[type=submit] {
+  background-color: var(--darkgreen);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+/* if viewed on an iPad */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    height: 768px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 1024px;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 20px 40px 0px;
+  }
+
+  .ContactPage .formCard h1 {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 160%;
+  }
+
+  .ContactPage .formCard hr {
+    width: 38%;
+    margin-top: 8px;
+  }
+
+  .formCard {
+    width: 90%;
+    height: 450px;
+    transform: translate(30px, -55%);
+  }
+
+  .cardContainer {
+    padding: 20px 40px;
+  }
+
+  /* Form styling */
+  .formCard input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #C8CCCE;
+  }
+
+  .formCard textarea {
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #C8CCCE;
+  }
+
+  .formCard input[type=submit] {
+    background-color: red;
+    font-weight: 500;
+  }
+}
+
+/* if viewed on an iPad Pro*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .container {
+    height: 1024px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 50px 40px 0px;
+  }
+
+  .ContactPage .formCard h1 {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 200%;
+  }
+
+  .ContactPage .formCard hr {
+    width: 33%;
+    margin-top: 8px;
+  }
+
+  .formCard {
+    width: 85%;
+    height: 600px;
+    transform: translate(70px, -47%);
+  }
+
+  .cardContainer {
+    padding: 20px 40px;
+  }
+
+  /* Form styling */
+  .formCard input {
+    width: 100%;
+    margin-top: 8px;
+    padding: 6px;
+    border: 1px solid #C8CCCE;
+  }
+
+  .formCard textarea {
+    width: 100%;
+    height: 130px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #C8CCCE;
+  }
+}
