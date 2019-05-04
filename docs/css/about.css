@@ -95,6 +95,14 @@ body {
   list-style-type: none;
 }
 
+.menu li {
+  padding: 2%;
+}
+
+.menu button {
+  font-size: 150%;
+}
+
 .welcome-toggle {
   grid-column: 2;
   font-size: 110%;
