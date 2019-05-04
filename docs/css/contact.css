@@ -86,9 +86,8 @@ body {
   position: relative;
   text-align: center;
   background: rgb(255, 255, 255, 0.8);
-  width: 40%;
+  width: 35%;
   margin: 5%;
-  /* float: right; */
 }
 
 .cardContainer {
@@ -106,7 +105,7 @@ body {
 
 .formCard textarea {
   width: 90%;
-  height: 15vh;
+  height: 19vh;
   margin-top: 12px;
   padding: 10px;
   color: gray;
