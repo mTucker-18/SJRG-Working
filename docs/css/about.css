@@ -37,7 +37,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: var(--darkgreen);
+  color: var(--lightgreen);
   text-shadow: 1px 1px black;
 }
 
@@ -82,7 +82,7 @@ body {
   text-align: center;
   color: var(--white);
   font-size: 200%;
-  text-shadow: 1px 1px grey;
+  text-shadow: 1px 1px black;
   margin: 9%;
 }
 
@@ -91,7 +91,11 @@ body {
   grid-template-columns: 20% auto 20%;
 }
 
-.text {
+.menu ul {
+  list-style-type: none;
+}
+
+.welcome-toggle {
   grid-column: 2;
   font-size: 110%;
 }

@@ -53,7 +53,16 @@
 
     <!-- Main Content -->
     <div class="MainContent">
-      <div class="text">
+      <div class="menu">
+        <ul class="links">
+          <li><button onclick="myFunction()">Welcome</button></li>
+          <li><button class="friends">Friends of SJRG</button></li>
+          <li><button class="BLM">BLM</button></li>
+          <li><button class="explore">Explore</button></li>
+        </ul>
+      </div>
+
+      <div id="text">
         <p>Welcome to the San Joaquin River Gorge Recreation Area, the best kept secret in this area!
           Come visit the last wild and scenic portion of the San Joaquin River. Connect with nature
           through an abundance of outdoor opportunities for families, friends, scouts, and other groups.
@@ -78,8 +87,12 @@
   </div>
 
     <!-- Custom scripts for this template -->
-    <!-- <script>
-    </script> -->
+    <script>
+      function myFunction() {
+        var element = document.getElementById("text");
+        element.classList.toggle("welcome-toggle");
+      }
+    </script>
   </body>
 
 </html>
