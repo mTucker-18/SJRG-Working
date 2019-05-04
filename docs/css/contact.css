@@ -37,7 +37,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: var(--darkgreen);
+  color: var(--lightgreen);
   text-shadow: 1px 1px black;
 }
 
@@ -56,37 +56,39 @@ body {
 }
 
 .links {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .copyright {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 /********************** CONTACT PAGE ******************/
 body {
-  background-image: url("../img/contact-background.png");
+  background-image: url("../img/contact-background2.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  overflow: hidden;
+}
+
+.contact-info {
+  float: right;
+  margin: 8% 30% 10% 10%;
+  color: var(--lightgreen);
+
 }
 
 .formCard h1 {
   color: var(--darkgreen);
-}
-
-.formCard hr {
-  width: 50%;
-  /* background-color: red; */
-  /* border-color: red; */
+  font-size: 250%;
 }
 
 .formCard {
   position: relative;
   text-align: center;
-  background: white;
-  width: 50%;
-  margin: 10%;
+  background: rgb(255, 255, 255, 0.8);
+  width: 40%;
+  margin: 5%;
+  /* float: right; */
 }
 
 .cardContainer {
@@ -104,7 +106,7 @@ body {
 
 .formCard textarea {
   width: 90%;
-  height: 150px;
+  height: 15vh;
   margin-top: 12px;
   padding: 10px;
   color: gray;
@@ -115,6 +117,7 @@ body {
 .formCard input[type=submit] {
   background-color: var(--darkgreen);
   color: white;
+  width: 35%;
   cursor: pointer;
   border: none;
 }
