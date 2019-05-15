@@ -37,7 +37,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: var(--lightgreen);
+  color: var(--darkgreen);
   text-shadow: 1px 1px black;
 }
 
@@ -69,7 +69,6 @@ body {
 }
 
 .heading {
-  top: 0;
   text-align: center;
   color: var(--white);
   font-size: 200%;
@@ -87,22 +86,37 @@ body {
 
 .MainContent {
   display: grid;
-  grid-template-columns: 20% auto 20%;
+  grid-template-columns: 25% auto 25%;
 }
 
-.menu ul {
+.menu {
+  grid-column: 1;
+  position: -webkit-menu;
+  position: sticky;
+  top: 0;
+}
+
+.links {
   list-style-type: none;
 }
 
-.menu li {
+.links a {
+  text-decoration: none;
+  color: var(--darkgreen);
+}
+
+.links a:hover {
+  color: var(--lightgreen);
+}
+
+.links li {
   padding: 2%;
-}
-
-.menu button {
   font-size: 150%;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
-.welcome-toggle {
+.about-text {
   grid-column: 2;
-  font-size: 110%;
+  font-size: 150%;
 }
