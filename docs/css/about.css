@@ -37,12 +37,12 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: var(--darkgreen);
+  color: var(--lightgreen);
   text-shadow: 1px 1px black;
 }
 
 .nav-item a:hover {
-  color: var(--lightgreen);
+  color: white;
 }
 
 /******************** FOOTER *********************/
@@ -64,10 +64,10 @@ body {
 
 .heading {
   text-align: center;
-  color: var(--white);
+  color: white;
   font-size: 200%;
   text-shadow: 1px 1px black;
-  background-image: url("../img/SJRG-bridge.png");
+  background-image: url("../img/bridge4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
@@ -75,7 +75,7 @@ body {
 }
 
 .heading h1 {
-  margin: 8% 5% 2% 5%;
+  margin: 9% 5% 5% 5%;
 }
 
 .MainContent {

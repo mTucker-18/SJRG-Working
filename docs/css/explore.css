@@ -67,7 +67,7 @@ body {
   color: var(--white);
   font-size: 200%;
   text-shadow: 1px 1px black;
-  background-image: url("../img/SJRG-bridge.png");
+  background-image: url("../img/bridge.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
