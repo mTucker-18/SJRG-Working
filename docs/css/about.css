@@ -42,7 +42,7 @@ body {
 }
 
 .nav-item a:hover {
-  color: white;
+  color: var(--lightgreen);
 }
 
 /******************** FOOTER *********************/
@@ -53,13 +53,7 @@ body {
   width: 100%;
   color: black;
   text-align: center;
-}
-
-.links {
-  opacity: 0.6;
-}
-
-.copyright {
+  line-height: 0.5;
   opacity: 0.6;
 }
 
@@ -107,6 +101,14 @@ body {
 
 .links a:hover {
   color: var(--lightgreen);
+}
+
+.links a:visited {
+  text-decoration: none;
+}
+
+.links a:active {
+  text-decoration: none;
 }
 
 .links li {

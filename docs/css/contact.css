@@ -53,14 +53,8 @@ body {
   width: 100%;
   color: black;
   text-align: center;
-}
-
-.links {
-  opacity: 0.8;
-}
-
-.copyright {
-  opacity: 0.8;
+  line-height: 0.5;
+  opacity: 0.6;
 }
 
 /********************** CONTACT PAGE ******************/

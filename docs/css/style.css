@@ -55,13 +55,7 @@ body {
   width: 100%;
   color: black;
   text-align: center;
-}
-
-.links {
-  opacity: 0.6;
-}
-
-.copyright {
+  line-height: 0.5;
   opacity: 0.6;
 }
 
