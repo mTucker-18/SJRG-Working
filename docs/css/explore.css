@@ -1,0 +1,124 @@
+:root {
+  /*page colors here */
+  --white: #F4F7F2;
+  --gray: #D3D4D9;
+  --lightgreen: #BFC9C1;
+  --darkgreen: #5A774A;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+/********************** NAV BAR *********************/
+
+.nav-container {
+  grid-row: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.nav-item {
+  display: inline;
+  float: right;
+}
+
+.nav-item a {
+  padding: 0px 30px 0px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--darkgreen);
+  text-shadow: 1px 1px black;
+}
+
+.nav-item a:hover {
+  color: var(--lightgreen);
+}
+
+/******************** FOOTER *********************/
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  line-height: 0.5;
+  opacity: 0.6;
+}
+
+/********************** ABOUT PAGE ******************/
+.container {
+
+}
+
+.heading {
+  text-align: center;
+  color: var(--white);
+  font-size: 200%;
+  text-shadow: 1px 1px black;
+  background-image: url("../img/SJRG-bridge.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.heading h1 {
+  margin: 8% 5% 2% 5%;
+}
+
+.MainContent {
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+}
+
+.menu {
+  grid-column: 1;
+  position: -webkit-menu;
+  position: sticky;
+  top: 0;
+}
+
+.links {
+  list-style-type: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--darkgreen);
+}
+
+.links a:hover {
+  color: var(--lightgreen);
+}
+
+.links a:visited {
+  text-decoration: none;
+}
+
+.links a:active {
+  text-decoration: none;
+}
+
+.links li {
+  padding: 2%;
+  font-size: 150%;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+.explore-text {
+  grid-column: 2;
+  font-size: 150%;
+}
