@@ -122,3 +122,20 @@ body {
   grid-column: 2;
   font-size: 150%;
 }
+
+/***** BUTTON STYLE******/
+.plan {
+  padding: 2%;
+  font-size: 130%;
+  border-radius: 4%;
+  background-color: var(--lightgreen);
+  box-shadow: 0 3px 6px 0, 0 3px 6px 0 rgb(0, 0, 0, 0.1);
+}
+
+.plan:hover {
+  box-shadow: 0 6px 12px 0, 0 6px 12px 0 rgb(0, 0, 0, 0.2);
+}
+
+.plan:focus {
+  outline: 0;
+}

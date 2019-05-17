@@ -37,12 +37,12 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: var(--darkgreen);
+  color: var(--lightgreen);
   text-shadow: 1px 1px black;
 }
 
 .nav-item a:hover {
-  color: var(--lightgreen);
+  color: white;
 }
 
 /******************** FOOTER *********************/

@@ -113,4 +113,5 @@ body {
   border-radius: 70%;
   margin: 4% 20% 0 20%;
   background-color: var(--white);
+  line-height: 1.6;
 }
