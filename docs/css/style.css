@@ -149,7 +149,6 @@ body {
   /* MISSION STATEMENT */
   .mission-statement {
     font-size: 170%;
-    border-radius: 70%;
     margin: 4% 15% 0 15%;
     line-height: 1.5;
   }
@@ -173,6 +172,7 @@ body {
   .container img {
     max-width: 100%;
     top: 0;
+    background-repeat: repeat-y;
   }
 
   /* INTRO TITLE */
@@ -189,14 +189,13 @@ body {
   /* MISSION STATEMENT */
   .mission-statement {
     font-size: 160%;
-    border-radius: 70%;
     margin: 4% 15% 0 15%;
     line-height: 1.5;
   }
 }
 
 /* if viewed on an iPad */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 901px) and (max-width: 1024px) {
 
   /* NAV BAR */
   .nav-item a {
@@ -219,6 +218,7 @@ body {
   .container .banner h1 {
     margin-top: 6vw;
     font-size: 300%;
+    text-shadow: 1px 1px black;
   }
 
   .container .banner h2 {
@@ -229,7 +229,172 @@ body {
   /* MISSION STATEMENT */
   .mission-statement {
     font-size: 130%;
-    border-radius: 70%;
+    margin: 4% 12% 0 12%;
+    line-height: 1.4;
+  }
+}
+
+/* if viewed on an iPhone X or Pixel 2 XL*/
+@media screen and (min-width: 737px) and (max-width: 900px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    padding: 0px 15px 0px 15px;
+    font-size: 11px;
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 3%;
+    font-size: 80%;
+  }
+
+  /* BACKGROUND IMG */
+  .container img {
+    max-width: 100%;
+    top: 0;
+  }
+
+  /* INTRO TITLE */
+  .container .banner h1 {
+    margin-top: 6vw;
+    font-size: 200%;
+    text-shadow: 1px 1px black;
+  }
+
+  .container .banner h2 {
+    margin-top: 0.5vw;
+    font-size: 110%;
+  }
+
+  /* MISSION STATEMENT */
+  .mission-statement {
+    font-size: 100%;
+    margin: 4% 12% 0 12%;
+    line-height: 1.4;
+  }
+}
+
+/* if viewed on an iPhone 6/7/8 Plus */
+@media screen and (min-width: 668px) and (max-width: 736px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    padding: 0px 13px 0px 13px;
+    font-size: 11px;
+  }
+
+  /* FOOTER */
+  .footer {
+    /* margin-top: 3%; */
+    font-size: 70%;
+  }
+
+  /* BACKGROUND IMG */
+  .container img {
+    max-width: 100%;
+    top: 0;
+  }
+
+  /* INTRO TITLE */
+  .container .banner h1 {
+    margin-top: 6vw;
+    font-size: 200%;
+    text-shadow: 1px 1px black;
+  }
+
+  .container .banner h2 {
+    margin-top: 0.5vw;
+    font-size: 110%;
+  }
+
+  /* MISSION STATEMENT */
+  .mission-statement {
+    font-size: 90%;
+    margin: 4% 12% 0 12%;
+    line-height: 1.4;
+  }
+}
+
+/* if viewed on an iPhone 6/7/8 */
+@media screen and (min-width: 569px) and (max-width: 667px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    text-shadow: none;
+    padding: 0px 13px 0px 13px;
+    font-size: 11px;
+  }
+
+  /* FOOTER */
+  .footer {
+    /* margin-top: 3%; */
+    font-size: 60%;
+  }
+
+  /* BACKGROUND IMG */
+  .container img {
+    max-width: 100%;
+    top: 0;
+  }
+
+  /* INTRO TITLE */
+  .container .banner h1 {
+    margin-top: 6vw;
+    font-size: 200%;
+    text-shadow: 1px 1px black;
+  }
+
+  .container .banner h2 {
+    margin-top: 0.5vw;
+    font-size: 110%;
+  }
+
+  /* MISSION STATEMENT */
+  .mission-statement {
+    font-size: 80%;
+    margin: 4% 12% 0 12%;
+    line-height: 1.4;
+  }
+}
+
+/* if viewed on an iPhone 5/SE */
+@media screen and (min-width: 414px) and (max-width: 568px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    text-shadow: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 10px;
+  }
+
+  /* FOOTER */
+  .footer {
+    /* margin-top: 3%; */
+    font-size: 50%;
+  }
+
+  /* BACKGROUND IMG */
+  .container img {
+    max-width: 100%;
+    top: 0;
+  }
+
+  /* INTRO TITLE */
+  .container .banner h1 {
+    margin-top: 6vw;
+    font-size: 160%;
+    text-shadow: 1px 1px black;
+  }
+
+  .container .banner h2 {
+    margin-top: 0.5vw;
+    font-size: 90%;
+  }
+
+  /* MISSION STATEMENT */
+  .mission-statement {
+    font-size: 70%;
     margin: 4% 12% 0 12%;
     line-height: 1.4;
   }
