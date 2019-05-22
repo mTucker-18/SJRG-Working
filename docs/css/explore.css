@@ -42,7 +42,7 @@ body {
 }
 
 .nav-item a:hover {
-  color: white;
+  color: var(--darkgreen);
 }
 
 /******************** FOOTER *********************/
