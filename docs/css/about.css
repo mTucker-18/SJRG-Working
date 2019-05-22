@@ -58,9 +58,6 @@ body {
 }
 
 /********************** ABOUT PAGE ******************/
-.container {
-
-}
 
 .heading {
   text-align: center;
@@ -154,6 +151,14 @@ body {
   /* FOOTER */
   .footer {
     margin-top: 5%;
+  }
+
+  .heading {
+    font-size: 170%;
+  }
+
+  .about-text {
+    font-size: 140%;
   }
 
 }
