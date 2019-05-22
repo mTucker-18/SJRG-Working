@@ -55,6 +55,7 @@ body {
   text-align: center;
   line-height: 0.5;
   opacity: 0.6;
+  margin-top: 3%;
 }
 
 /********************** ABOUT PAGE ******************/
@@ -160,5 +161,27 @@ body {
   .about-text {
     font-size: 140%;
   }
+}
 
+/* if viewed on an iPad Pro*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    padding: 0px 15px 0px 15px;
+    font-size: 20px;
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 5%;
+  }
+
+  .heading {
+    font-size: 170%;
+  }
+
+  .about-text {
+    font-size: 140%;
+  }
 }
