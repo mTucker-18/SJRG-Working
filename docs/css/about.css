@@ -139,3 +139,21 @@ body {
 .plan:focus {
   outline: 0;
 }
+
+/******* MEDIA QUERIES *******/
+
+/* if viewed on a macbook air*/
+@media screen and (min-width: 1367px) and (max-width: 1500px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    padding: 0px 15px 0px 15px;
+    font-size: 22px;
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 5%;
+  }
+
+}
