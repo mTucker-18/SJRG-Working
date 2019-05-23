@@ -45,19 +45,6 @@ body {
   color: var(--darkgreen);
 }
 
-/******************** FOOTER *********************/
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: black;
-  text-align: center;
-  line-height: 0.5;
-  opacity: 0.6;
-  margin-top: 3%;
-}
-
 /********************** ABOUT PAGE ******************/
 .heading {
   text-align: center;
@@ -67,8 +54,13 @@ body {
   background-image: url("../img/bridge4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 100%;
   min-height: 500px;
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .heading h1 {
@@ -76,8 +68,10 @@ body {
 }
 
 .MainContent {
+  position: absolute;
   display: grid;
   grid-template-columns: 25% auto 25%;
+  top: 500px;
 }
 
 .menu {
@@ -135,6 +129,17 @@ body {
 
 .plan:focus {
   outline: 0;
+}
+
+/******************** FOOTER *********************/
+.footer {
+  grid-column: span 3;
+  width: 100%;
+  color: black;
+  text-align: center;
+  line-height: 0.5;
+  opacity: 0.6;
+  margin-top: 1%;
 }
 
 /******* MEDIA QUERIES *******/
