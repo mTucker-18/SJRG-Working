@@ -59,7 +59,6 @@ body {
 }
 
 /********************** ABOUT PAGE ******************/
-
 .heading {
   text-align: center;
   color: white;
@@ -81,7 +80,7 @@ body {
   grid-template-columns: 25% auto 25%;
 }
 
-div.menu {
+.menu {
   grid-column: 1;
   position: -webkit-sticky;
   position: sticky;

@@ -46,7 +46,6 @@
         <span class="subheading">Hiking, Camping, Horseback riding and more!</span>
       </div>
 
-
     <!-- Main Content -->
     <div class="MainContent">
       <div class="menu">
@@ -78,8 +77,8 @@
           <p>Senior Pass</p>
 
         <!---INTERACTIVE GOOGLE MAP----->
-        <h4>Interactive map to the gorge</h4>
-        <div id="googleMap" style="width:100%;height:400px;"></div>
+        <h4>Interactive map of the gorge</h4>
+        <div id="googleMap"></div>
 
       </div>
 
@@ -87,39 +86,39 @@
       <div class="explore-text" id="events">
         <h1>Upcoming Events</h1>
 
-          <div class="event1">
-            <h3><strong>Perseid Meteor Shower</strong></h3>
-            <p>When: July 17 - August 26 (peak: Aug 12-13th)</p>
-            <p>The Perseids (pur-see-ids) are a popular meteor shower in the northern hemisphere
-              because they peak on warm summer nights. At it's maximum you might see 50-75
-              meteors per hour. This particular shower will also take place during
-              an nearly full moon, so bring your teliscope!</p>
-            <p>For more information check out the American Meteor Society's website
-              <a href="https://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/" target="_blank">
-                here</a>.</p>
-          </div>
+        <div class="event1">
+          <h3><strong>Perseid Meteor Shower</strong></h3>
+          <p>When: July 17 - August 26 (peak: Aug 12-13th)</p>
+          <p>The Perseids (pur-see-ids) are a popular meteor shower in the northern hemisphere
+            because they peak on warm summer nights. At it's maximum you might see 50-75
+            meteors per hour. This particular shower will also take place during
+            an nearly full moon, so bring your teliscope!</p>
+          <p>For more information check out the American Meteor Society's website
+            <a href="https://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/" target="_blank">
+              here</a>.</p>
+        </div>
 
-          <div class="event2">
-            <h3><strong>Nature Hikes</strong></h3>
-            <p>The San Joaquin River Gorge is home to hundreds of plant
-              and animal species. Experience them first-hand on a nature hike!</p>
-            <p>What animals might I find? Bald eagles, golden eagles, Swainson's hawks,
-              mule deer, bob cats, mountain lions, frogs, salamanders, lizards, skinks,
-              turtles, chipmonks, ducks, geese, foxes, and many, many more.</p>
-            <p>For more information check out the San Joaquin River Partnership's website
-              <a href="http://sanjoaquinriverpartnership.org/resources/blueway-vision/wildlife-natural-areas.php" target="_blank">
-                here</a>.</p>
-          </div>
+        <div class="event2">
+          <h3><strong>Nature Hikes</strong></h3>
+          <p>The San Joaquin River Gorge is home to hundreds of plant
+            and animal species. Experience them first-hand on a nature hike!</p>
+          <p>What animals might I find? Bald eagles, golden eagles, Swainson's hawks,
+            mule deer, bob cats, mountain lions, frogs, salamanders, lizards, skinks,
+            turtles, chipmonks, ducks, geese, foxes, and many, many more.</p>
+          <p>For more information check out the San Joaquin River Partnership's website
+            <a href="http://sanjoaquinriverpartnership.org/resources/blueway-vision/wildlife-natural-areas.php" target="_blank">
+              here</a>.</p>
+        </div>
 
-          <div class="special-event">
-            <h3><strong>Special Events</strong></h3>
-            <p>Reserve a campground</p>
-            <p>Reserve the Pole Barn</p>
-            <p>Reserve the corral??</p>
-            <p>For more information visit BLM's website
-              <a href="https://www.blm.gov" target="_blank">
-                here</a>.</p>
-          </div>
+        <div class="special-event">
+          <h3><strong>Special Events</strong></h3>
+          <p>Reserve a campground</p>
+          <p>Reserve the Pole Barn</p>
+          <p>Reserve the corral??</p>
+          <p>For more information visit BLM's website
+            <a href="https://www.blm.gov" target="_blank">
+              here</a>.</p>
+        </div>
       </div>
 
       <!-- OUTDOOR FUN SECTION -->
@@ -157,18 +156,16 @@
 
     <!-- Custom scripts for this page -->
     <script>
-
     function myMap() {
     var mapProp= {
       center:new google.maps.LatLng(37.088396,-119.5521245),
-      zoom:5,
+      zoom:13,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
-
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyAVQ4aTJimpPtTYK0HTyFDxUOK9dackpmM&callback=myMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyASOlIkd6_pxYKCsQrscmq9k2rlYDbalPQ&callback=myMap"></script>
   </body>
 
 </html>
