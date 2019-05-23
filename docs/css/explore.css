@@ -57,11 +57,7 @@ body {
   opacity: 0.6;
 }
 
-/********************** ABOUT PAGE ******************/
-.container {
-
-}
-
+/********************** EXPLORE PAGE ******************/
 .heading {
   text-align: center;
   color: var(--white);
@@ -85,7 +81,7 @@ body {
 
 .menu {
   grid-column: 1;
-  position: -webkit-menu;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }

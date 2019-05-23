@@ -81,9 +81,9 @@ body {
   grid-template-columns: 25% auto 25%;
 }
 
-.menu {
+div.menu {
   grid-column: 1;
-  position: -webkit-menu;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
