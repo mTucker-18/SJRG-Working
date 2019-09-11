@@ -77,7 +77,6 @@ body {
 }
 
 .menu {
-  grid-column: 1;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
