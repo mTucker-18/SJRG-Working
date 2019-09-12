@@ -64,11 +64,11 @@ body {
   background-repeat: no-repeat;
 }
 
+/* INFO FOR CONTACT PAGE */
 .contact-info {
   float: right;
-  margin: 8% 30% 10% 15%;
+  margin: 8% 10% 0% 0%;
   color: var(--lightgreen);
-
 }
 
 .formCard h1 {
@@ -95,6 +95,7 @@ body {
   padding: 10px;
   color: gray;
   border: 2px solid #C8CCCE;
+  font-family: 'Heebo', sans-serif;
 }
 
 .formCard textarea {
@@ -105,6 +106,7 @@ body {
   color: gray;
   border: 2px solid #C8CCCE;
   resize: none;
+  font-family: 'Heebo', sans-serif;
 }
 
 .formCard input[type=submit] {
@@ -113,6 +115,14 @@ body {
   width: 35%;
   cursor: pointer;
   border: none;
+  font-family: 'Heebo', sans-serif;
+}
+
+/*PARTNERS LINKS */
+.partners {
+  color: var(--darkgreen);
+  background-color: rgb(255, 255, 255, 0.8);
+  text-align: center;
 }
 
 /* if viewed on an iPad */
