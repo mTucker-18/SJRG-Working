@@ -59,6 +59,10 @@ body {
   opacity: 0.6;
 }
 
+.links {
+  padding: 5px;
+}
+
 /***************** LANDING PAGE *****************/
 
 /* BACKGROUND IMG */
@@ -105,12 +109,12 @@ body {
 /* MISSION STATEMENT */
 .mission-statement {
   text-align: center;
-  font-size: 180%;
+  font-size: 170%;
   color: var(--darkgreen);
   border-radius: 70%;
   margin: 4% 20% 0 20%;
   background-color: var(--white);
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 /******* MEDIA QUERIES *******/
