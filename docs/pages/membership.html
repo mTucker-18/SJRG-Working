@@ -50,9 +50,9 @@
         <div class="cardContainer">
           <h1>CONTACT US</h1>
 
-          <form action="mailto:matthewt263@gmail.com" method="post" enctype="text/plain">
+          <form method="post" action="send_mail.php">
             <div class="row">
-              <input type="text" id="name" name="name" placeholder="name">
+              <input type="text" id="name" name="name" placeholder="name" required>
             </div>
             <div class="row">
               <input type="text" id="address" name="address" placeholder="address">
@@ -64,10 +64,7 @@
               <input type="text" id="email" name="email" placeholder="email">
             </div>
             <div class="row">
-              <input type="text" id="subject" name="subject" placeholder="subject">
-            </div>
-            <div class="row">
-              <textarea id="message" name="message" placeholder="message"></textarea>
+              <textarea id="message" name="message" placeholder="message" maxlength="500"></textarea>
             </div>
             <div class="row">
               <input type="submit" value="SEND">
