@@ -73,16 +73,6 @@ body {
   background-size: cover;
 }
 
-/* .container img {
-  max-width: 100%;
-  height: auto;
-  position: absolute;
-  top: -10%;
-  right: 0;
-  z-index: -1;
-  opacity: 0.3;
-} */
-
 /* INTRO TITLE */
 .container .banner h1 {
   margin-top: 7vw;
@@ -138,11 +128,6 @@ body {
   /* FOOTER */
   .footer {
     margin-top: 5%;
-  }
-
-  /* BACKGROUND IMG */
-  .container img {
-    top: 0;
   }
 
   /* INTRO TITLE */
