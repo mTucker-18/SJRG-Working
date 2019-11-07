@@ -55,7 +55,6 @@ body {
   background-image: url("../img/explore.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   min-width: 100%;
   min-height: 500px;
   overflow: hidden;
@@ -70,13 +69,14 @@ body {
 }
 
 .MainContent {
+  position: absolute;
   display: grid;
   grid-template-columns: 25% auto 25%;
-  position: absolute;
   top: 500px;
 }
 
 .menu {
+  grid-column: 1;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -116,13 +116,6 @@ body {
   font-size: 150%;
 }
 
-/* INTERACTIVE GOOGLE MAP */
-#googleMap {
-  z-index: -1;
-  width: 100%;
-  height: 400px;
-}
-
 /******************** FOOTER *********************/
 .footer {
   grid-column: span 3;
@@ -138,32 +131,40 @@ body {
 
 /* if viewed on a macbook air*/
 @media screen and (min-width: 1367px) and (max-width: 1500px) {
+
 }
 
 /* if viewed on an iPad Pro*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+
 }
 
 /* if viewed on an iPad */
-@media screen and (min-width: 901px) and (max-width: 1024px) {
+@media screen and (min-width: 901px) and (max-width: 1023px) {
+
 }
 
 /* if viewed on an iPhone X or Pixel 2 XL*/
 @media screen and (min-width: 737px) and (max-width: 900px) {
+
 }
 
 /* if viewed on an iPhone 6/7/8 Plus */
 @media screen and (min-width: 668px) and (max-width: 736px) {
+
 }
 
 /* if viewed on an iPhone 6/7/8 */
 @media screen and (min-width: 569px) and (max-width: 667px) {
+
 }
 
 /* if viewed on an iPhone 5/SE */
 @media screen and (min-width: 414px) and (max-width: 568px) {
+
 }
 
 /* if viewed virticle */
 @media screen and (min-width: 320px) and (max-width: 413px) {
+
 }
