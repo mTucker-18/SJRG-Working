@@ -151,7 +151,7 @@ body {
 
   /* NAV BAR */
   .nav-item a {
-    padding: 0px 15px 0px 15px;
+    padding: 0px 20px 0px 15px;
     font-size: 22px;
   }
 
@@ -162,6 +162,7 @@ body {
 
   .heading {
     font-size: 170%;
+    max-height: auto;
   }
 
   .about-text {
