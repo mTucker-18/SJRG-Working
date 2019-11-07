@@ -151,7 +151,7 @@ body {
 
   /* NAV BAR */
   .nav-item a {
-    padding: 0px 20px 0px 15px;
+    padding: 0px 15px 0px 15px;
     font-size: 22px;
   }
 
@@ -160,18 +160,20 @@ body {
     margin-top: 5%;
   }
 
+  /* HEADING */
   .heading {
     font-size: 170%;
     max-height: auto;
   }
 
+  /* BODY TEXT */
   .about-text {
     font-size: 140%;
   }
 }
 
 /* if viewed on an iPad Pro*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
 
   /* NAV BAR */
   .nav-item a {
@@ -186,19 +188,89 @@ body {
 
   .heading {
     font-size: 170%;
+    max-height: auto;
   }
 
+  /* HEADING */
+  .heading h1 {
+    margin: 13% 5% 5% 5%;
+  }
+
+  /* BODY TEXT */
   .about-text {
     font-size: 140%;
   }
 }
 
 /* if viewed on an iPad */
-@media screen and (min-width: 901px) and (max-width: 1024px) {
+@media screen and (min-width: 901px) and (max-width: 1023px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    padding: 0px 15px 0px 15px;
+    font-size: 20px;
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 5%;
+  }
+
+  .heading {
+    font-size: 170%;
+    max-height: auto;
+  }
+
+  /* HEADING */
+  .heading h1 {
+    margin: 15% 5% 5% 5%;
+  }
+
+  /* BODY TEXT */
+  .about-text {
+    font-size: 140%;
+  }
 }
 
 /* if viewed on an iPhone X or Pixel 2 XL*/
 @media screen and (min-width: 737px) and (max-width: 900px) {
+
+  /* NAV BAR */
+  .nav-item a {
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 5%;
+  }
+
+  /* HEADING */
+  .heading {
+    font-size: 140%;
+    max-height: auto;
+  }
+
+  .heading h1 {
+    margin: 20% 5% 5% 5%;
+  }
+
+  /* PAGE LINKS */
+  .links li {
+    padding: 2%;
+    font-size: 120%;
+  }
+
+  /* BODY TEXT */
+  .about-text {
+    font-size: 110%;
+  }
+
+  /* BUTTON */
+  .plan {
+    font-size: 100%;
+  }
 }
 
 /* if viewed on an iPhone 6/7/8 Plus */
