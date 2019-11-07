@@ -133,3 +133,37 @@ body {
   opacity: 0.6;
   margin-top: 1%;
 }
+
+/******* MEDIA QUERIES *******/
+
+/* if viewed on a macbook air*/
+@media screen and (min-width: 1367px) and (max-width: 1500px) {
+}
+
+/* if viewed on an iPad Pro*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+}
+
+/* if viewed on an iPad */
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+}
+
+/* if viewed on an iPhone X or Pixel 2 XL*/
+@media screen and (min-width: 737px) and (max-width: 900px) {
+}
+
+/* if viewed on an iPhone 6/7/8 Plus */
+@media screen and (min-width: 668px) and (max-width: 736px) {
+}
+
+/* if viewed on an iPhone 6/7/8 */
+@media screen and (min-width: 569px) and (max-width: 667px) {
+}
+
+/* if viewed on an iPhone 5/SE */
+@media screen and (min-width: 414px) and (max-width: 568px) {
+}
+
+/* if viewed virticle */
+@media screen and (min-width: 320px) and (max-width: 413px) {
+}
